@@ -1,0 +1,119 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #004e64;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 48px;
+    padding: 16px 0px;
+    color: #9fffcb;
+}
+
+h2 {
+    color: #9fffcb;
+    padding: 6px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+}
+
+div {
+    padding: 16px 0;
+    text-align: center;
+}
+
+#lists {
+    list-style-type: none;
+    color: #caf2ec;
+    text-align: center;
+    padding: 8px;
+}
+
+li {
+    padding: 4px;
+}
+
+.flower-image {
+   width: 420px;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+table {
+    text-align: center;
+    color: #caf2ec;
+    width: 100%;
+    padding: 8px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: #caf2ec;
+}
+input {
+    padding: 10px;
+    border-radius: 8px;
+} 
+
+.radio-input {
+    width: 26px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.radio-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.check-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.check-input {
+    width: 18px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 8px;
+    margin: 16px 0;
+    cursor: pointer;
+}
